@@ -21,9 +21,6 @@ sell_threshold = 1.01
 funds = 100 #$ This is adjustable depending on the available funds.
 
 def calculate_amount_to_buy(price, funds):
-    """
-    Calculate how much of the cryptocurrency you can buy with the available funds.
-    """
     return funds / price
 
 def get_crypto_price(symbol="SUI/USDT"):
